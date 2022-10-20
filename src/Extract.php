@@ -57,6 +57,8 @@ class Extract
      */
     const HOSTNAME_PATTERN = '#^((?!-)[a-z0-9_-]{0,62}[a-z0-9_]\.)+[a-z]{2,63}|[xn\-\-a-z0-9]]{6,63}$#';
 
+    const TYPE_ICANN = 1;
+
     /**
      * @var int Value of extraction options.
      */
